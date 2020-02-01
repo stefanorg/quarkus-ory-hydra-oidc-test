@@ -1,0 +1,25 @@
+{
+	"allowed_cors_origins": ["http://*"],
+	"audience": [],
+	"client_id": "auth-code-client",
+	"contacts": null,
+	"created_at": "2020-02-01T17:01:32.000Z",
+	"grant_types": [
+		"authorization_code",
+		"refresh_token"
+	],
+	"post_logout_redirect_uris": null,
+	"redirect_uris": [
+		"http://localhost:8080/my-app/callback"
+	],
+	"request_uris": null,
+	"response_types": [
+		"code",
+		"id_token"
+	],
+	"scope": "openid offline",
+	"subject_type": "public",
+	"token_endpoint_auth_method": "client_secret_basic",
+	"updated_at": "2020-02-01T17:01:32.000Z",
+	"userinfo_signed_response_alg": "none"
+}
